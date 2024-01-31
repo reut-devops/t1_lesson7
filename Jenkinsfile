@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('run pyton') {
+        stage('run Python') {
             steps {
-                sh 'pyton main.py'
+                sh 'Python main.py'
             }
         }
     }
